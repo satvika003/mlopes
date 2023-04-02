@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>homepage</title>
+  </head>
+
+  <body>
+    <h1 id="b"><b>Build your House</b></h1>
+    <form action="/predict" method="POST">
+      <input
+        type="text"
+        placeholder="No.of Bedrooms"
+        name="No.of Bedrooms"
+        required
+      />
+      <br />
+      <br />
+      <input
+        type="text"
+        placeholder="No.of restrooms"
+        name="No.of restrooms"
+        required
+      />
+      <br />
+      <br />
+      <input
+        type="text"
+        placeholder="living room sqft"
+        name="living room sqft"
+        required
+      />
+      <br />
+      <br />
+      <input
+        type="text"
+        placeholder="Basement sqft"
+        name="Basement sqft"
+        required
+      />
+      <br />
+      <br />
+      <input type="text" placeholder="Year Built" name="Year Built" required />
+      <br />
+      <br />
+      <button>Predict Cost</button>
+      <br />
+      <br />
+    </form>
+  </body>
+</html>
